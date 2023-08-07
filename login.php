@@ -24,10 +24,11 @@ $user_data = check_login($con);
   <h1>Sudoku Game</h1>
 
   <h2 id="errors!">0</h2>
-  <a href="logout.php">Logout</a>
   <div id="board"></div>
   <br>
   <div id="digits"></div>
+  <a href="logout.php">Logout</a>
+
 </body>
 
 </html>
