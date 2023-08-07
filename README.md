@@ -8,4 +8,6 @@ http://sudoku-game.rf.gd
 
 ## Screenshot
 
-(screenshot.png)
+
+
+
