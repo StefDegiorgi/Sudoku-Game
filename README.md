@@ -8,4 +8,4 @@ http://sudoku-game.rf.gd
 
 ## Screenshot
 
-![Alt text](screenshot.png)
+(screenshot.png)
