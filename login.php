@@ -26,8 +26,9 @@ $user_data = check_login($con);
   <h2 id="errors!">0</h2>
   <div id="board"></div>
   <br>
-  <div id="digits"></div>
+  <div id="digits"></div><br><br>
   <a href="logout.php">Logout</a>
+  <button id="reset-button" type="button">Reset</button>
 
 </body>
 

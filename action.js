@@ -27,6 +27,9 @@ var solution = [
 ]
 window.onload = function () {
     setGame();
+    
+    var resetButton = document.getElementById("reset-button");
+    resetButton.addEventListener("click", resetGame);
 }
 
 function setGame() {
@@ -87,4 +90,17 @@ function setGame() {
             }
         }
     }
+}
+
+function resetGame() {
+
+    var tiles = document.querySelectorAll(".tile");
+    tiles.forEach(function (tile) {
+        tile.innerText = "";
+    });
+
+    errors = 0;
+    document.getElementById("errors").innerText = errors;
+
+    location.reload();
 }
