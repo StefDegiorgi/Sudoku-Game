@@ -1,4 +1,4 @@
-# sudoku-game
+# Sudoku Game
 
 This is a Sudoku Game with a login that will store the data into a MySQL Database. You can create an account to use it as your login.
 
