@@ -23,13 +23,15 @@ $user_data = check_login($con);
 <body>
   <h1>Sudoku Game</h1>
 
-  <h2 id="errors!">0</h2>
+  <h2 id="errors">0</h2>
+
   <div id="board"></div>
   <br>
-  <div id="digits"></div><br><br>
-  <a href="logout.php">Logout</a>
-  <button id="reset-button" type="button">Reset</button>
-
+  <div id="digits"></div><br>
+  <div class="button-container">
+    <a href="logout.php">Logout</a>
+    <button id="reset-button" type="button">Reset</button>
+  </div>
 </body>
 
 </html>
