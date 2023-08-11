@@ -4,7 +4,7 @@ This is a Sudoku Game with a login that will store the data into a MySQL Databas
 
 ## Link to the Website
 
-http://sudoku-game.rf.gd
+http://sudokugame.infinityfreeapp.com/
 
 ## Screenshot
 
